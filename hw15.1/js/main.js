@@ -122,10 +122,10 @@ arr.forEach(element => {
   
 
   document.write(`
-    <div class="wraper">
-      <h2>Category: {category[0]}</h2>
+    <div class="category">
+      <span>Category: ${element[0].category}</span>
       
-      <div class="category">${renderArr.join(``)}</div>
+      <div class="category__wraper">${renderArr.join('')}</div>
     </div>
   `);
 
