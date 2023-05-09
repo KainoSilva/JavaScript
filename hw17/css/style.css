@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.user__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user__info--data {
+  display: flex;
+  align-items: center;
+}
+
+.user__info--role {
+  display: flex;
+  align-items: center;
+  background: rgb(236,234,255);
+  border-radius: 5px;
+  gap: 10px;
+  height: 45px;
+  padding: 0px 12px;
+}
+
+.user__info--role p::first-letter {
+  text-transform: uppercase;
+}
+
+.user__courses {
+  display: flex;
+  gap: 20px;
+}
+
+.user__courses .student {
+  background: rgb(235,233,255);
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+.user__courses .admin {
+  background: rgb(233,243,254);
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.user__courses .lector {
+  background: rgb(254,234,232);
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.user__courses--course span {
+  border-radius: 3px;
+  padding: 2px 5px;
+}
+
+.user__courses--course .satisfactory {
+  background: rgb(238,216,235);
+  color: rgb(245,82,72);
+}
+
+.user__courses--course .excellent {
+  background: rgb(221,228,237);
+  color: rgb(79,176,83);
+}
+
+.user__courses--course .good {
+  background: rgb(222,216,246);
+  color: rgb(139,106,202);
+}
+
+.user__courses--course .very-good {
+  background: rgb(217,237,250);
+  color: rgb(0,188,212);
+}
